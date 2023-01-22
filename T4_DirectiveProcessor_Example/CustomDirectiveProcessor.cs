@@ -96,7 +96,7 @@ namespace CustomDP
                 {
                     throw new DirectiveProcessorException("Argument 'FileName' is null or empty.");
                 }
-
+                fileName = Environment.ExpandEnvironmentVariables(fileName);
                 // Now we add code to the generated transformation class.
                 // This directive supports either Visual Basic or C#, so we must use the
                 // System.CodeDom to create the code.
