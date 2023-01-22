@@ -4,3 +4,4 @@ obj
 UserPrefs.xml
 T4-DirectiveProcessor-Example-Debug.json
 T4-DirectiveProcessor-Example.sln
+TestDP.cs
