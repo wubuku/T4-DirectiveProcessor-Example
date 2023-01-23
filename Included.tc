@@ -1,0 +1,9 @@
+﻿<#+
+public static class Hello
+{
+    public static string sayHello()
+    {
+        return "Hello, world!";
+    }
+}
+#>
