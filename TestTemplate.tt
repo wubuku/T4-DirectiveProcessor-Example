@@ -1,0 +1,8 @@
+<#@ template debug="true" #>
+<#@ output extension=".txt" #>
+<#@ include file="./TestTemplateClass.tt" #>
+<#
+    // ...
+#>
+hello, world.
+<#= (new TestTemplateClass()).TransformText() #>

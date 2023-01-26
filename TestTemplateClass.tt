@@ -1,0 +1,17 @@
+﻿<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="Microsoft.VisualStudio.TextTemplating" #>
+<#+
+
+public class TestTemplateClass : TextTransformation
+{
+
+	public override string TransformText()
+	{
+#>
+        <#= "Hello, world2." #>
+<#+
+		return this.GenerationEnvironment.ToString();
+	}
+}
+#>
