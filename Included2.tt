@@ -1,0 +1,16 @@
+﻿<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Core" #>
+
+<#+
+public static class Hello2
+{
+    public static string sayHello()
+    {
+        return "Hello, world!";
+    }
+}
+#>

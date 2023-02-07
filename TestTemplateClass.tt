@@ -1,6 +1,8 @@
 ﻿<#@ assembly name="System.Core" #>
 <#@ import namespace="System.Collections.Generic" #>
 <#@ import namespace="Microsoft.VisualStudio.TextTemplating" #>
+<#@ include file="./Included.tt" #>
+<#@ include file="./Included2.tt" #>
 <#+
 
 public class TestTemplateClass : TextTransformation
